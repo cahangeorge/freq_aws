@@ -1,5 +1,5 @@
 # Freqtrade rules
-config*.json
+!config*.json
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
@@ -9,6 +9,8 @@ user_data/*
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
+!user_data/strategies
+!user_data/strategies/sample_strategy.py
 user_data/freqaimodels/*
 user_data/models/*
 user_data/notebooks/*
